@@ -22,3 +22,7 @@ The 77th round of the National Sample Survey (NSS), conducted by the National St
 
 ## Structure of the repository
 
+The scripts in this repository assign descriptive labels to source variables and create a separate, labeled copy for variables requiring value mapping, enhancing readability for further analysis.
+
+* RegionMapping.py: Core utility script defining the geographical regions (states and districts) used across other labeling files.
+* bX.py: A set of scripts with the numerical suffix (like b3, b4, b11) corresponds to specific blocks of NSSO 77th data blocks.
