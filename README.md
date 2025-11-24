@@ -1,5 +1,5 @@
 # NSSO_77th_round
-Python script to label variables of 77th NSSO block files (select block files).
+Python scripts to label variables of the National Sample Survey Office (NSSO) 77th Round block files.
 
 The 77th round of the National Sample Survey (NSS), conducted by the National Statistical Office (NSO) during January to December 2019, released in September 2021, focused on two main integrated subjects:
 
@@ -22,7 +22,7 @@ The 77th round of the National Sample Survey (NSS), conducted by the National St
 
 ## Structure of the repository
 
-The scripts in this repository assign descriptive labels to source variables and create a separate, labeled copy for variables requiring value mapping, enhancing readability for further analysis.
+The scripts in this repository assign descriptive labels to source variables and create a separate, labeled copy for variables requiring value mapping, enhancing readability for further analysis. The scripts in the [Codes](https://github.com/kushalsuresha/NSSO_77th_round/tree/main/Codes) folder are as follows:
 
-* RegionMapping.py: Core utility script defining the geographical regions (states and districts) used across other labeling files.
+* [RegionMapping.py](https://github.com/kushalsuresha/NSSO_77th_round/blob/main/Codes/RegionMapping.py): Core utility script leveraged for region mapping (states and districts), across other labeling files.
 * bX.py: A set of scripts with the numerical suffix (like b3, b4, b11) corresponds to specific blocks of NSSO 77th data blocks.
