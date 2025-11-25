@@ -4,7 +4,7 @@ Python scripts to label variables of the National Sample Survey Office (NSSO) 77
 Released in September 2021, the 77th round of the National Sample Survey (NSS)—conducted by the National Statistical Office (NSO) between January and December 2019—focused on two main integrated subjects:
 
 1. Schedule 33.1: Land and Livestock Holdings of Households and Situation Assessment of Agricultural Households.
-2. Schedule 18.2 Debt and Investment data of the Households
+2. Schedule 18.2: Debt and Investment data of the Households
 
 ## NSSO Data Structure
 
