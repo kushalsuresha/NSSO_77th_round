@@ -1,5 +1,5 @@
 # NSSO_77th_round
-Python scripts to label variables of the National Sample Survey Office (NSSO) 77th Round block files.
+Python scripts to label variables of the National Sample Survey Office (NSSO) 77th Round, block files.
 
 Released in September 2021, the 77th round of the National Sample Survey (NSS)—conducted by the National Statistical Office (NSO) between January and December 2019—focused on two main integrated subjects:
 
