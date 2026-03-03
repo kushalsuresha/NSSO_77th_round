@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import RegionMapping 
 
-df = pd.read_csv('file_path')
+df = pd.read_stata('file_path') # loading dta file extracted from MoSPI miro data site
 
 df = df.rename(columns={
     
@@ -108,3 +108,4 @@ df['Purpose_of_loan_Name'] = df['Purpose_of_loan'].map(purpose_of_loan_encoding)
 df['Loan_is_secured_Name'] = df['Loan_is_secured'].map({1: 'Yes', 2: 'No'})
 
 df.to_csv('file_path', index=False)  
+
