@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import RegionMapping 
 
-df_data = pd.read_csv('file_path')
+df_data = pd.read_stata('file_path') # loading dta file extracted from MoSPI miro data site
 
 print(df_data['HHID'].nunique())
 print(df_data.columns)
@@ -97,3 +97,4 @@ df_data['household_type_name'] = df_data.apply(
 df_data['operated_land_for_agricultural_name'] = df_data['operated_land_for_agricultural_activities_last_365_days'].map({1: 'Yes', 2: 'No'})
 
 df_data.to_csv('file_path', index=False)  
+
