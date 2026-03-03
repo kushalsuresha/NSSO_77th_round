@@ -2,8 +2,7 @@ import pandas as pd
 import numpy as np
 import RegionMapping 
 
-df = pd.read_csv('file_path')
-# df = pd.read_stata('file_path') # For .dta files
+df = pd.read_stata('file_path') # loading dta file extracted from MoSPI miro data site
 
 df = df.rename(columns={
     # UMCE: Usual Monthly Consumer Expenditure
@@ -29,3 +28,4 @@ df['District_Name'] = df.apply(
 
 
 df.to_csv('file_path', index=False)  
+
