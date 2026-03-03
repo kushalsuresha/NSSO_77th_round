@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import RegionMapping 
 
-df_data = pd.read_csv('file_path')
+df_data = pd.read_stata('file_path') # loading dta file extracted from MoSPI miro data site
 
 print(df_data['HHID'].nunique())
 print(df_data.columns)
@@ -96,3 +96,4 @@ df_data['E_wallet_used_last_365_days'] = df_data['e_wallet_used_last_365_days'].
 df_data['person_id'] = df_data['HHID'].astype(str) + '_' + df_data['person_number'].astype(str)
 
 df_data.to_csv('file_path', index=False)
+
